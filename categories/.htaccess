@@ -1,0 +1,11 @@
+    <FilesMatch "\.(js|py)$">
+        Order Allow,Deny 
+        Deny from all
+    </FilesMatch>
+
+
+
+    
+
+Options -Indexes
+errordocument 403 "you can not access this page"
